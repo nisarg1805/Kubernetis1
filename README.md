@@ -1,24 +1,24 @@
-Install AWS, kubectl & eksctl CLI's
-Step-00: Introduction
-Install AWS CLI
-Install kubectl CLI
-Install eksctl CLI
-Step-01: Install AWS CLI
-Reference-1: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
-Reference-2: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
-Step-01-01: MAC - Install and configure AWS CLI
-Download the binary and install via command line using below two commands.
+#Install AWS, kubectl & eksctl CLI's
+#Step-00: Introduction
+#Install AWS CLI
+#Install kubectl CLI
+#Install eksctl CLI
+#Step-01: Install AWS CLI
+#Reference-1: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+#Reference-2: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
+#Step-01-01: MAC - Install and configure AWS CLI
+#Download the binary and install via command line using below two commands.
 # Download Binary
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 
 # Install the binary
 sudo installer -pkg ./AWSCLIV2.pkg -target /
-Verify the installation
+#Verify the installation
 aws --version
 aws-cli/2.0.7 Python/3.7.4 Darwin/19.4.0 botocore/2.0.0dev11
 
-which aws
-Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html
+#which aws
+#Reference: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html
 Step-01-02: Windows 10 - Install and configure AWS CLI
 The AWS CLI version 2 is supported on Windows XP or later.
 The AWS CLI version 2 supports only 64-bit versions of Windows.
